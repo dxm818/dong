@@ -1,0 +1,108 @@
+*{margin: 0;padding: 0;list-style: none;}
+.clearfix::after{
+  content:'';/*内容为空*/
+  display:block;/*显示为块状元素*/
+  width:0;/*宽0*/
+  height:0;/*高0*/
+  visibility:hidden;/*隐藏*/
+  clear:both;/*左右不允许有浮动元素（左右浮动都清除）*/
+ }
+ .clearfix{
+  zoom:1;
+ } 
+.box{
+	width: 100%;
+	height: 270px;
+	background: rgba(228, 228, 228, 1);
+}
+.nav{
+	width: 300px;
+	height: 107px;
+	margin: 0 auto;
+}
+.u25_text{
+	width: 60px;
+	font-size: 14px;
+	color: #666666;
+	float: left;
+	margin-top: 50px;
+}
+.u22_text{
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	float: left;
+	background: #cccccc;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: 54px;
+	margin-top: 34px;
+}
+.history{
+	padding-top: 18px;
+}
+.u26_text{
+	width: 60px;
+	font-size: 14px;
+	color: #666666;
+	float: left;
+	margin-left: 54px;
+	margin-top: 50px;
+}
+.u22_text1{
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	float: left;
+	background: blue;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: 54px;
+	margin-top: 34px;
+}
+.history{
+	padding-top: 18px;
+}
+.box_div{
+	width: 100%;
+	background: #FFFFFF;
+}
+.u33_div{
+	width: 100%;
+	height: 35px;
+	background: #bcbcbc;
+	line-height: 35px;
+}
+.nav_one{
+	margin-left: -38px;
+}
+.nav_one li{
+	float: left;
+	margin-left: 40px;
+	font-size: 16px;
+	color: #333333;
+	white-space: nowrap;
+}
+.u40_div{
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px #666666 solid;
+}
+.nav_two{
+	margin-left: -30px;
+}
+.nav_two li{
+	float: left;
+	margin-left: 40px;
+	font-size: 14px;
+	color: #333333;
+
+}
+.u40_div_one{
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+}

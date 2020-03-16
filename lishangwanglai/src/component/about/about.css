@@ -1,0 +1,32 @@
+.u889_img{
+	width: 62px;
+	height: 62px;
+	background: #999999;
+	float: left;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.u890_img{
+	margin-left: 90px;
+	padding-top: 35px;
+}
+#about-bottom{
+	width: 100%;
+	height: 44px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	line-height: 44px;
+}
+.u891_p{
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #333333;
+}
+.u891_arrow{
+	float: right;
+	font-size: 20px;
+	color: #333333;
+	margin-right: 10px;
+}
